@@ -1,0 +1,26 @@
+Run these commands in power shell.
+ 
+1. to clone any project , first select folder in which you have to clone--> git clone (url of repository to clone).
+
+2. to add project which is in your local environment into your repository , first open project folder and select that cloned project i.e 
+
+MyRepo  --->              
+git commit -m "first commit"
+git branch -M main
+git remote add origin1 https://github.com/AbdulGani11/MyRepo.git
+git push -u origin1 main
+
+NOTE: We renamed origin to origin1 because it showing error that remote origin is already exists.
+
+
+3. Before pushing to Github, you need to commit.
+
+Commands -->
+
+1. git add * --> The git add * command is used to add all modified and untracked files in the current directory and its subdirectories to the Git staging area. It prepares these changes for inclusion in the next commit. However, it does not include deleted files. It's recommended to review and selectively stage files instead of adding everything blind.
+
+2. git commit -m "message" --> The git commit -m "message" command creates a new commit in Git. It captures the changes you have staged and adds them to the repository's history. The -m option allows you to provide a concise commit message describing the changes. Writing meaningful commit messages is important for understanding the purpose and content of the commit without examining the changes themselves.
+
+3. git push -u original main--> The command git push -u original main is used to push the local commits to a remote repository called "original" and set the upstream branch.
+
+
